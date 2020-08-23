@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="75000" started-at="2020-08-23T12:19:11Z" finished-at="2020-08-23T12:20:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="75000" started-at="2020-08-23T12:19:11Z" finished-at="2020-08-23T12:20:26Z">
+      <class name="com.shopping.flipkart.testcases.HomePagetc">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.shopping.flipkart.testcases.HomePagetc@1fa3a9d]" name="init" is-config="true" duration-ms="21916" started-at="2020-08-23T12:19:11Z" finished-at="2020-08-23T12:19:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="fillUserForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.shopping.flipkart.testcases.HomePagetc@1fa3a9d]" name="fillUserForm" duration-ms="52129" started-at="2020-08-23T12:19:34Z" data-provider="userData" finished-at="2020-08-23T12:20:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2BG]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Snapdragon]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillUserForm -->
+      </class> <!-- com.shopping.flipkart.testcases.HomePagetc -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
